@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/05/29 19:01:11 by vgursoy           #+#    #+#             */
+/*   Updated: 2025/05/29 19:01:11 by vgursoy          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef LIBFT_H
 # define LIBFT_H
 #include <stdio.h>
@@ -13,7 +25,7 @@ int ft_isascii (int n);
 int ft_isdigit (int n);
 int ft_isprint(int n);
 char *ft_itoa(int n);
-void *memchr(const void *ptr, int c, size_t n);
+void *ft_memchr(const void *ptr, int c, size_t n);
 int ft_memcmp(const void *s1, const void *s2, size_t n);
 void *ft_memcpy(void *dest, const void *src, size_t n);
 void *ft_memmove(void *dest, const void *src, size_t n);
