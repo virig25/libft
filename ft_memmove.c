@@ -11,21 +11,22 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-
 //bellekte overlap-çakışma riski varsa memmove kullanılır
-void *ft_memmove(void *dest, const void *src, size_t n){
+void	*ft_memmove(void *dst, const void *src, size_t len)
+{
+	char		*a;
+	const char	*b;
 
-    unsigned char *a = (unsigned char *)dest;
-    const unsigned char *b = (const unsigned char *)src;
-
-    if (a < b)
-       return (ft_memcpy(dest, src, n));  
-    else if (a > b)
-    {
-        while (n--)
-            a[n] = b[n];
-    }
-
-    return dest;
-
+	*a = (char *)dst;
+	*b = (const char *)src;
+	if (len == 0 || dst == src)
+		return (a);
+	if (a < b)
+	   return (ft_memcpy(dst, src, len));  
+	else if (a > b)
+	{
+		while (len--)
+			a[len] = b[len];
+	}
+	return dst;
 }
