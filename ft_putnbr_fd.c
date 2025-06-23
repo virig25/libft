@@ -6,7 +6,7 @@
 /*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 18:57:42 by vgursoy           #+#    #+#             */
-/*   Updated: 2025/05/29 18:57:42 by vgursoy          ###   ########.fr       */
+/*   Updated: 2025/06/23 18:43:00 by vgursoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,12 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
+	char	a;
+
 	if (n == -2147483648)
 	{
 		write(fd, "-2147483648", 11);
-		return;
+		return ;
 	}
 	if (n < 0)
 	{
@@ -31,7 +33,7 @@ void	ft_putnbr_fd(int n, int fd)
 	}
 	else
 	{
-		char a = n + '0';
+		a = n + '0';
 		write(fd, &a, 1);
 	}
 }

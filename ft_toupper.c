@@ -6,17 +6,13 @@
 /*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 19:01:06 by vgursoy           #+#    #+#             */
-/*   Updated: 2025/05/29 19:01:06 by vgursoy          ###   ########.fr       */
+/*   Updated: 2025/06/23 19:45:25 by vgursoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-int ft_toupper(int c)
+int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
-	{
 		c = c - 32;
-	}
-	return c;
+	return (c);
 }

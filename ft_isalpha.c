@@ -6,13 +6,13 @@
 /*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 18:56:08 by vgursoy           #+#    #+#             */
-/*   Updated: 2025/05/29 18:56:08 by vgursoy          ###   ########.fr       */
+/*   Updated: 2025/06/23 17:02:03 by vgursoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha (int n)
+int	ft_isalpha(int n)
 {
 	if (!(n >= 'a' && n <= 'z') && !(n >= 'A' && n <= 'Z'))
-		return(0);
-	return(1);
+		return (0);
+	return (1);
 }

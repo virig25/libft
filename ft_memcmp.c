@@ -6,7 +6,7 @@
 /*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 18:57:17 by vgursoy           #+#    #+#             */
-/*   Updated: 2025/05/29 18:57:17 by vgursoy          ###   ########.fr       */
+/*   Updated: 2025/06/23 17:12:49 by vgursoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,9 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	ptr2 = s2;
 	while (i < n)
 	{
-		// s1[i] == '\0' || s2[i] == '\0' memcmpte gereksizdir çünkü byte düzleminde karşılaştırma yapılır. boş olmasının bi anlamı yoktor
-		//raw byte karşılaştırması
-		if(ptr1[i] != ptr2[i])
+		if (ptr1[i] != ptr2[i])
 			return (ptr1[i] - ptr2[i]);
 		i++;
 	}
-	return 0;
+	return (0);
 }

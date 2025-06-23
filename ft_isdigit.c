@@ -6,13 +6,13 @@
 /*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 18:56:15 by vgursoy           #+#    #+#             */
-/*   Updated: 2025/05/29 18:56:15 by vgursoy          ###   ########.fr       */
+/*   Updated: 2025/06/23 17:03:57 by vgursoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isdigit(int n)
 {
 	if (!(n >= '0' && n <= '9'))
-		return(0);
-	return(1);
+		return (0);
+	return (1);
 }

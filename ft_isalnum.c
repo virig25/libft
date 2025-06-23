@@ -6,15 +6,15 @@
 /*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 18:56:05 by vgursoy           #+#    #+#             */
-/*   Updated: 2025/05/29 18:56:05 by vgursoy          ###   ########.fr       */
+/*   Updated: 2025/06/23 17:01:49 by vgursoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalnum (int n)
+int	ft_isalnum(int n)
 {
 	if (!ft_isalpha(n) && !ft_isdigit(n))
-		return(0);
-	return(1);
+		return (0);
+	return (1);
 }

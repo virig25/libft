@@ -6,15 +6,13 @@
 /*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 19:01:00 by vgursoy           #+#    #+#             */
-/*   Updated: 2025/05/29 19:01:01 by vgursoy          ###   ########.fr       */
+/*   Updated: 2025/06/23 19:45:28 by vgursoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
-    if (c >= 'A' && c <= 'Z')
-        c = c + 32;
-    return c;
+	if (c >= 'A' && c <= 'Z')
+		c = c + 32;
+	return (c);
 }

@@ -6,7 +6,7 @@
 /*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 18:58:23 by vgursoy           #+#    #+#             */
-/*   Updated: 2025/05/29 18:58:23 by vgursoy          ###   ########.fr       */
+/*   Updated: 2025/06/23 17:34:36 by vgursoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,5 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	{
 		i++;
 	}
-	return i;
+	return (i);
 }

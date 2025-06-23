@@ -6,11 +6,9 @@
 /*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 18:58:01 by vgursoy           #+#    #+#             */
-/*   Updated: 2025/05/29 18:58:01 by vgursoy          ###   ########.fr       */
+/*   Updated: 2025/06/23 19:48:56 by vgursoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {

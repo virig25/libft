@@ -6,7 +6,7 @@
 /*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 18:57:54 by vgursoy           #+#    #+#             */
-/*   Updated: 2025/05/29 18:57:54 by vgursoy          ###   ########.fr       */
+/*   Updated: 2025/06/23 17:42:40 by vgursoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strchr(const char *s, int c)
 {
- 	int	a;
+	int	a;
 
 	a = ft_strlen(s);
 	while (a >= 0)

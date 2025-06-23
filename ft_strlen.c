@@ -6,7 +6,7 @@
 /*   By: vgursoy <vgursoy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 18:58:28 by vgursoy           #+#    #+#             */
-/*   Updated: 2025/05/29 18:58:28 by vgursoy          ###   ########.fr       */
+/*   Updated: 2025/06/23 17:33:07 by vgursoy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,11 @@ size_t	ft_strlen(const char *s)
 {
 	size_t	len;
 
-	i = 0;
-	while (*s){
+	len = 0;
+	while (*s)
+	{
 		len++;
 		s++;
 	}
-	return len;
+	return (len);
 }
